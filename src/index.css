@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Alexandria', system-ui, -apple-system, sans-serif;
+    letter-spacing: -0.01em;
+  }
+  
+  .font-amiri {
+    font-family: 'Amiri', serif;
+  }
+
+  .font-alexandria {
+    font-family: 'Alexandria', sans-serif;
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAF8F5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D9CBB8;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #BFAEA0;
+}
+
